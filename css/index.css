@@ -2747,6 +2747,7 @@ h1.page-title + .tag-cloud-list {
 #aside-content .aside-list > .aside-list-item .thumbnail :first-child {
   width: 80%;
   height: 80%;
+  border-radius: 10px;
 }
 #aside-content .aside-list > .aside-list-item .content {
   -webkit-box-flex: 1;

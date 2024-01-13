@@ -2744,6 +2744,10 @@ h1.page-title + .tag-cloud-list {
   width: 4.2em;
   height: 4.2em;
 }
+#aside-content .aside-list > .aside-list-item .thumbnail :first-child {
+  width: 80%;
+  height: 80%;
+}
 #aside-content .aside-list > .aside-list-item .content {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;

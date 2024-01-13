@@ -3075,7 +3075,7 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-direction: column;
   flex-direction: column;
 }
-.page #card-newest-comments {
+.page .card-recent-post {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
   -o-box-ordinal-group: 1;

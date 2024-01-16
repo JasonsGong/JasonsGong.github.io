@@ -5597,8 +5597,8 @@ blockquote.pullquote.right {
 [data-theme='dark'] #gitalk-container {
   filter: brightness(0.8);
 }
-[data-theme='dark'] #gitalk-container svg {
-  fill: rgba(255,255,255,0.9) !important;
+[data-theme='dark'] #gitalk-container .gt-container .gt-ico-github svg {
+  fill: rgba(255,255,255,0.9);
 }
 [data-theme='dark'] #disqusjs #dsqjs:hover,
 [data-theme='dark'] #disqusjs #dsqjs:focus,

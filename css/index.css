@@ -1482,7 +1482,7 @@ button {
   touch-action: manipulation;
 }
 a {
-  color: #99a9bf;
+  color: #858585;
   text-decoration: none;
   word-wrap: break-word;
   -webkit-transition: all 0.2s;
@@ -3629,7 +3629,7 @@ h1.page-title + .tag-cloud-list {
 }
 #post > #post-info #post-meta,
 #post > #post-info #post-meta a {
-  color: #78818a;
+  color: #858585;
 }
 #post-info .post-title {
   margin-bottom: 8px;

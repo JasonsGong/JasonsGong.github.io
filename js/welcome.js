@@ -11,7 +11,7 @@ function welcome(){
         text: welcome_text,
         imageUrl: "/img/avatar.jpg",
 		//弹窗时间1000代表一秒
-        timer: 3000,
+        timer: 5000,
         showConfirmButton: true
     });
 }

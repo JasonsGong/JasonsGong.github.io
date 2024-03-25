@@ -1,9 +1,9 @@
 function welcome(){
-	let title = '网站域名更换通知!'
-    let welcome_text = '访客你好!本网站域名已更换,网站新域名:\njasonsgong.github.io'
+	let title = 'WELCOME'
+    let welcome_text = '嗨,好久不见,欢迎再次回来,希望您能喜欢这里的新变化!'
     if(document.referrer!==''){
         let referrer=document.referrer.split("/")[2];
-        //welcome_text="欢迎你,来自"+referrer.toUpperCase()+"的用户来访!";
+        welcome_text="嗨,好久不见,欢迎你,来自"+referrer.toUpperCase()+"的用户!";
         if(referrer.toUpperCase()==document.domain.toUpperCase())return;
     }
     swal({
@@ -11,7 +11,7 @@ function welcome(){
         text: welcome_text,
         imageUrl: "/img/avatar.jpg",
 		//弹窗时间1000代表一秒
-        timer: 10000,
+        timer: 3000,
         showConfirmButton: true
     });
 }

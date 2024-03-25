@@ -9,9 +9,9 @@ function welcome(){
     swal({
         title: title,
         text: welcome_text,
-        imageUrl: "/img/avatar.jpg",
+        imageUrl: "/img/logo.png",
 		//弹窗时间1000代表一秒
-        timer: 5000,
+        timer: 4000,
         showConfirmButton: true
     });
 }

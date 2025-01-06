@@ -11,8 +11,8 @@ function welcome(){
         text: welcome_text,
         imageUrl: "/img/logo.png",
 		//弹窗时间1000代表一秒
-        timer: 4000,
-        showConfirmButton: true
+        timer: 2000,
+        showConfirmButton: false
     });
 }
 $(document).ready(()=>{

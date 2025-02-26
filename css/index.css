@@ -1381,6 +1381,7 @@ canvas:not(#ribbon-canvas),
   --btn-color: #fff;
   --btn-bg: #006650;
   --text-bg-hover: rgba(0,102,80,0.7);
+  --flink-text-bg-hover: #07896d;
   --light-grey: #eee;
   --dark-grey: #cacaca;
   --white: #fff;
@@ -2358,7 +2359,7 @@ figure.highlight pre .javascript .function {
   bottom: 0;
   left: 0;
   z-index: -1;
-  background: var(--text-bg-hover);
+  background: var(--flink-text-bg-hover);
   content: '';
   -webkit-transition: -webkit-transform 0.3s ease-out;
   -moz-transition: -moz-transform 0.3s ease-out;
@@ -5515,6 +5516,7 @@ blockquote.pullquote.right {
   --btn-color: rgba(255,255,255,0.7);
   --btn-bg: #1f1f1f;
   --text-bg-hover: #383838;
+  --flink-text-bg-hover: #383838;
   --light-grey: rgba(255,255,255,0.7);
   --dark-grey: rgba(255,255,255,0.2);
   --white: rgba(255,255,255,0.9);
